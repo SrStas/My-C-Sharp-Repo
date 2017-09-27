@@ -1,0 +1,4 @@
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS-800API\bin\Debug\SCS-800API.exe.config
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS-800API\obj\Debug\SCS-800API.csprojResolveAssemblyReference.cache
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS-800API\obj\Debug\SCS_800API.Properties.Resources.resources
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS-800API\obj\Debug\SCS-800API.csproj.GenerateResource.Cache

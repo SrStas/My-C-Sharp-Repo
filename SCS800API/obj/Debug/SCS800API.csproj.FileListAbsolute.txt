@@ -1,0 +1,9 @@
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\bin\Debug\scs800wcom.dll
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\bin\Debug\scs804w.dll
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\bin\Debug\scs81xw.dll
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\bin\Debug\Scs824w.dll
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\bin\Debug\SCS800API.dll
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\bin\Debug\SCS800API.pdb
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\obj\Debug\SCS800API.csprojResolveAssemblyReference.cache
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\obj\Debug\SCS800API.dll
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\obj\Debug\SCS800API.pdb

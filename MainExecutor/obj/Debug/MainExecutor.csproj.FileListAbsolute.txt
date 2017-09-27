@@ -1,0 +1,18 @@
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\MainExecutor\bin\Debug\MainExecutor.exe.config
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\MainExecutor\bin\Debug\scs800wcom.dll
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\MainExecutor\bin\Debug\scs804w.dll
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\MainExecutor\bin\Debug\scs81xw.dll
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\MainExecutor\bin\Debug\Scs824w.dll
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\MainExecutor\bin\Debug\MainExecutor.exe
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\MainExecutor\bin\Debug\MainExecutor.pdb
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\MainExecutor\bin\Debug\SCS800API.dll
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\MainExecutor\bin\Debug\SCS800API.pdb
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\MainExecutor\obj\Debug\MainExecutor.csprojResolveAssemblyReference.cache
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\MainExecutor\obj\Debug\MainExecutor.exe
+c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\MainExecutor\obj\Debug\MainExecutor.pdb
+D:\Stas\Projects\MyMisc\MainExecutor\bin\Debug\MainExecutor.exe.config
+D:\Stas\Projects\MyMisc\MainExecutor\obj\Debug\MainExecutor.exe
+D:\Stas\Projects\MyMisc\MainExecutor\obj\Debug\MainExecutor.pdb
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MainExecutor\bin\Debug\MainExecutor.exe.config
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MainExecutor\obj\Debug\MainExecutor.exe
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MainExecutor\obj\Debug\MainExecutor.pdb
