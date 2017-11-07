@@ -1,0 +1,10 @@
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MessringLight\bin\Debug\MessringLight.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MessringLight\bin\Debug\MessringLight.pdb
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MessringLight\bin\Debug\MLight.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MessringLight\bin\Debug\MlightServiceBase.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MessringLight\bin\Debug\MlightServiceMng.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MessringLight\bin\Debug\vxlapi_NET20.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MessringLight\bin\Debug\vcinet2.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MessringLight\obj\Debug\MessringLight.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MessringLight\obj\Debug\MessringLight.pdb
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\MessringLight\obj\Debug\MessringLight.csprojResolveAssemblyReference.cache

@@ -7,3 +7,12 @@ c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\bin\D
 c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\obj\Debug\SCS800API.csprojResolveAssemblyReference.cache
 c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\obj\Debug\SCS800API.dll
 c:\users\stas.s\documents\visual studio 2015\Projects\SCS-800API\SCS800API\obj\Debug\SCS800API.pdb
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\SCS800API\obj\Debug\SCS800API.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\SCS800API\obj\Debug\SCS800API.pdb
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\SCS800API\bin\Debug\scs800wcom.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\SCS800API\bin\Debug\scs804w.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\SCS800API\bin\Debug\scs81xw.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\SCS800API\bin\Debug\Scs824w.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\SCS800API\bin\Debug\SCS800API.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\SCS800API\bin\Debug\SCS800API.pdb
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\SCS800API\obj\Debug\SCS800API.csprojResolveAssemblyReference.cache

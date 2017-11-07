@@ -33,6 +33,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsys.Hardware.Catalog">
+      <HintPath>..\..\..\..\SureFire6\Releases\SF6-V1.0.0.0\Source\Hardware\Microsys.Hardware.Catalog\bin\Debug\Microsys.Hardware.Catalog.dll</HintPath>
+    </Reference>
+    <Reference Include="MLight">
+      <HintPath>..\MessringLight\dlls\MLight.dll</HintPath>
+    </Reference>
+    <Reference Include="MlightServiceBase">
+      <HintPath>..\MessringLight\dlls\MlightServiceBase.dll</HintPath>
+    </Reference>
+    <Reference Include="MlightServiceMng">
+      <HintPath>..\MessringLight\dlls\MlightServiceMng.dll</HintPath>
+    </Reference>
+    <Reference Include="Scs81x">
+      <HintPath>..\..\..\..\SureFire6\Releases\SF6-V1.0.0.0\Source\Hardware\Microsys.Hardware.Catalog\bin\Debug\Scs81x.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,6 +65,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MessringLight\MessringLight.csproj">
+      <Project>{dfa8d5b6-5d4c-48e0-a08e-e3053c0dbbb8}</Project>
+      <Name>MessringLight</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SCS800API\SCS800API.csproj">
       <Project>{dde15b46-7c70-4d83-86a4-d90ceed6fd60}</Project>
       <Name>SCS800API</Name>

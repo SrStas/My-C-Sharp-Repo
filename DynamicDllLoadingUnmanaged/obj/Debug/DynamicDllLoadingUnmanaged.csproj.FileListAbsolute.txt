@@ -1,0 +1,5 @@
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\DynamicDllLoadingUnmanaged\bin\Debug\DynamicDllLoadingUnmanaged.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\DynamicDllLoadingUnmanaged\bin\Debug\DynamicDllLoadingUnmanaged.pdb
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\DynamicDllLoadingUnmanaged\obj\Debug\DynamicDllLoadingUnmanaged.csprojResolveAssemblyReference.cache
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\DynamicDllLoadingUnmanaged\obj\Debug\DynamicDllLoadingUnmanaged.dll
+D:\Stas\Projects\GitHub\My-C-Sharp-Repo\DynamicDllLoadingUnmanaged\obj\Debug\DynamicDllLoadingUnmanaged.pdb
