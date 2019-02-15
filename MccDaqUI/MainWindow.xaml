@@ -1,0 +1,76 @@
+﻿<Window x:Class="MccDaqUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MccDaqUI"
+        xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="470.515" Width="898.415">
+    <Grid>
+        <ComboBox Name="cmbRange" HorizontalAlignment="Left" Margin="326,33,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cmbRange_SelectionChanged"/>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="371,261,0,0" VerticalAlignment="Top" Width="75" Click="StartButton_Click"/>
+        <Label Content="In Channel" HorizontalAlignment="Left" Margin="326,76,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="txtNumChan" HorizontalAlignment="Left" Height="23" Margin="392,79,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="27"/>
+        <Label Content="Voltage read" HorizontalAlignment="Left" Margin="326,126,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="VoltageLable" Content="--V" HorizontalAlignment="Left" Margin="408,126,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Enter V in range" HorizontalAlignment="Left" Margin="23,76,0,0" VerticalAlignment="Top" Width="96"/>
+        <TextBox x:Name="txtVoltsToSet" HorizontalAlignment="Left" Height="23" Margin="124,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="72"/>
+        <Button x:Name="UpdateButton" Content="Update" HorizontalAlignment="Left" Margin="39,261,0,0" VerticalAlignment="Top" Width="75" Click="UpdateButton_Click"/>
+        <Label x:Name="lblVoltage" Content="" HorizontalAlignment="Left" Margin="39,181,0,0" VerticalAlignment="Top" Width="182"/>
+        <Label x:Name="lblShowValue" Content="" HorizontalAlignment="Left" Margin="226,181,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.466,0.39"/>
+        <Label Content="Out Channel" HorizontalAlignment="Left" Margin="26,30,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="txtNumChan_Out" HorizontalAlignment="Left" Height="23" Margin="92,33,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="27"/>
+        <dxc:ChartControl HorizontalAlignment="Left" Margin="481,2,0,0" VerticalAlignment="Top">
+            
+            <dxc:XYDiagram2D Margin="15,14,6,14">
+                <dxc:XYDiagram2D.DefaultPane>
+                    <dxc:Pane DomainBrush="Transparent"/>
+                </dxc:XYDiagram2D.DefaultPane>
+                <dxc:XYDiagram2D.SecondaryAxesX>
+                    <dxc:SecondaryAxisX2D x:Name="gridAxisX" Visible="True">
+                        <dxc:SecondaryAxisX2D.Range>
+                            <dxc:AxisRange MaxValue="2000" MinValue="0" />
+                        </dxc:SecondaryAxisX2D.Range>
+                    </dxc:SecondaryAxisX2D>
+                </dxc:XYDiagram2D.SecondaryAxesX>
+                <dxc:XYDiagram2D.SecondaryAxesY>
+                    <dxc:SecondaryAxisY2D x:Name="gridAxisY" Visible="False">
+                        <dxc:SecondaryAxisY2D.Range>
+                            <dxc:AxisRange MaxValue="10" MinValue="-10" />
+                        </dxc:SecondaryAxisY2D.Range>
+                    </dxc:SecondaryAxisY2D>
+                </dxc:XYDiagram2D.SecondaryAxesY>
+                <dxc:XYDiagram2D.AxisY>
+                    <dxc:AxisY2D Visible="True" Interlaced="False" GridLinesVisible="True">
+                       
+                        <dxc:AxisY2D.WholeRange>
+                            <dxc:Range x:Name="verticalAxisRange" MinValue="-10" MaxValue="10" SideMarginsValue="0"/>
+                        </dxc:AxisY2D.WholeRange>
+                    </dxc:AxisY2D>
+                </dxc:XYDiagram2D.AxisY>
+                <dxc:XYDiagram2D.AxisX>
+                    <dxc:AxisX2D Visible="False">
+                        <dxc:AxisX2D.WholeRange>
+                            <dxc:Range x:Name="horizontallAxisRange" MinValue="0" MaxValue="2000" SideMarginsValue="0"/>
+                        </dxc:AxisX2D.WholeRange>
+                    </dxc:AxisX2D>
+                </dxc:XYDiagram2D.AxisX>
+                <dxc:XYDiagram2D.Series>
+                    <dxc:LineStepSeries2D x:Name="lineStepSeries2D" MarkerVisible="False" ArgumentScaleType="Numerical" Brush="#FF7ED4F9">
+                        <dxc:LineStepSeries2D.LineStyle>
+                            <dxc:LineStyle Thickness="2" />
+                        </dxc:LineStepSeries2D.LineStyle>
+                        <dxc:LineStepSeries2D.Label>
+                            <dxc:SeriesLabel Visible="False" />
+                        </dxc:LineStepSeries2D.Label>
+                    </dxc:LineStepSeries2D>
+                </dxc:XYDiagram2D.Series>
+            </dxc:XYDiagram2D>
+        </dxc:ChartControl>
+        <Label Content="Set Trigger on DO0" HorizontalAlignment="Left" Margin="22,404,0,0" VerticalAlignment="Top" Width="121"/>
+        <Button Content="Set to High" HorizontalAlignment="Left" Margin="167,404,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button x:Name="QuitButton" Content="Quit" HorizontalAlignment="Left" Margin="392,404,0,0" VerticalAlignment="Top" Width="75" Click="QuitButton_Click"/>
+
+    </Grid>
+</Window>

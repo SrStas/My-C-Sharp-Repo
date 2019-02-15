@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SCS800API
 {
@@ -48,14 +42,14 @@ namespace SCS800API
         {
             Gain_1 = 0,
             Gain_2 = 1,
-            Gain_5 = 3,
-            Gain_10 = 4,
-            Gain_20 = 5,
-            Gain_50 = 6,
-            Gain_100 = 7,
-            Gain_200 = 8,
-            Gain_500 = 9,
-            Gain_1000 = 0,
+            Gain_5 = 2,
+            Gain_10 = 3,
+            Gain_20 = 4,
+            Gain_50 = 5,
+            Gain_100 = 6,
+            Gain_200 = 7,
+            Gain_500 = 8,
+            Gain_1000 = 9,
         };
 
 
@@ -85,6 +79,9 @@ namespace SCS800API
         {
             elliptic = 0,
             linearPhase = 1,
+            bessel = 2,
+            butterworth = 3,
+
         }
 
         public enum clockSource : int //internal or external clock number
@@ -144,12 +141,13 @@ namespace SCS800API
             {
                 return NativeMethods.InitializeSCS800Communication((Int32)ComPort);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                Console.WriteLine("Error on Flter InitializeSCS800Communication() " + ex);
             }
 
+            return -99;
 
         }
 
@@ -162,7 +160,7 @@ namespace SCS800API
             catch (Exception)
             {
 
-                throw;
+                return -99;
             }
 
 
@@ -177,7 +175,7 @@ namespace SCS800API
             catch (Exception)
             {
 
-                throw;
+                return -99;
             }
         }
 
@@ -185,12 +183,12 @@ namespace SCS800API
         {
             try
             {
-                return NativeMethods.Program81xChannel(chassiAddress, boardAddress, (UInt32)boardType, channel, (UInt32)gain, (UInt32)filterType, (UInt32)clockSource, filterFc);
+                return NativeMethods.Program81xChannel(chassiAddress, boardAddress, (UInt32)boardType, (UInt32)channel, (UInt32)gain, (UInt32)filterType, (UInt32)clockSource, filterFc);
             }
             catch (Exception)
             {
 
-                throw;
+                return -99;
             }
         }
 
